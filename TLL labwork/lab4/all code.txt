@@ -1,0 +1,110 @@
+q1
+
+a=int(input("Enter the nth number= "))
+if(a==0):
+    print("n=0 so no input")
+if(a==1):
+    print("n")
+if(a>1):
+    print("n ", end=" ")
+    x=2
+    for i in range(1,a):
+        print("n-",x," ",end=" ")
+        x=x+2
+
+
+q2
+
+a=input("Enter string= ")
+print(a)
+x=0
+for i in a:
+    x=x+1
+print(x)
+
+q3
+
+a=input("enter the string= ")
+b=" "
+for i in a:
+    b=i+b
+   
+print(b)    
+
+q4
+
+a=input("Enter a string= ")
+b=""
+for i in a:
+    b=i+b
+    
+print(b)   
+
+if(a==b):
+    print("Pallindrome")
+else:
+    print("Not a Pallindrome")
+
+q5
+
+a = input("Enter a string= ")
+print(a[1:3])
+print(a[:3])
+print(a[1:])
+
+q6
+a1=input("enter a string1= ")
+a2=input("enter a string2= ")
+
+a3=""
+a3=a1+a2
+
+print(a3)
+
+n=int(input("Enter the n times= "))
+for i in range(0,n):
+    print(a3)
+
+q7
+a1=input("Enter the string = ")
+a2=input("Enter a substring= ")
+
+
+if a2 in a1:
+    print("Entered substring is valid")
+else:
+    print("Entered substring is invalid")
+print("Original string = ",a1)
+
+q8
+a1=input("String1= ")
+a2=input("String2= ")
+a3=input("String3= ")
+
+print(a1,a2,a3)
+
+del(a3)
+
+print(a1,a2)
+
+print(type(a1))
+print(id(a1))
+
+
+q9
+print("shray\nsingh")
+print("shray\tsingh")
+print("shray\bsingh")
+
+q10
+a1="shraysingh"
+a2="rat"
+print(len(a1))
+print(a1.upper())
+print(a1.lower())
+print(a1.find(a2))
+print(a1.index("a"))
+print(a1.isalpha())
+print(a1.count("a"))
+
+

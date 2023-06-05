@@ -1,0 +1,27 @@
+Simulate the cloud analyst environment as per the following specifications:
+
+1. Create 5 data centers in continent north america, asia , australia and africa with 50 user bases in each continents. 
+
+Name your data center as per your roll numbers ex: DC1_Roll
+DC2_Roll
+
+
+2.  User bases should have 100 user grouping factor and 100 request grouping factor in data centers with executable instruction length 150 per request (byte) with following load balancing policies. 
+i. Round Robin
+ii. Equally Spread current execution load
+iii. Throttle
+
+Rename your user as per roll number (001_UB1, 001_UB2, 001_UB3 etc)
+
+
+
+Prepare a graph based on the average response time for this load balancing policies for the same specifications.
+
+Prepare a comparison table as per the
+
+Data center request servicing time
+Overal response time
+And Grand total cost ( total virtual machine cost + total transfer cost)
+
+
+The experiment should be conducted for Closest data center service broker policies.

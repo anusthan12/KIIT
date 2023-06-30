@@ -1,1 +1,0 @@
-java -cp jars/simjava2.jar;jars/gridsim.jar;jars/iText-2.1.5.jar;classes;. cloudsim.ext.gui.GuiMain

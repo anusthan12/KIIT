@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+h1
+{
+    text-align: center;
+    text-decoration: red underline;
+    color: red;
+}

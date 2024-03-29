@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage</title>
+    <script>
+        function myFunction() {
+          alert("Data saved sucessfully!");
+        }
+        </script>
+</head>
+<body>
+    <p>FNAME <input type="text" id="fanme" name="fname"></p>
+    <br>
+    <p>LNAME <input type="text" id="lanme" name="lname"></p>
+    <br>
+    <p>ROLLNO <input type="number" id="ROLLNO" name="ROLLNO"></p>
+    <br>
+    <p>
+
+        <label> Branch </label>
+
+        <select name="course" id="course">
+            <option value="Cse">Cse</option>
+            <option value="IT">IT</option>
+            <option value="CSSE">CSSE</option>
+            <option value="CSCE">CSCE</option>
+
+        </select>
+        
+    </p>
+    <br>
+<div style="border: solid 1px;">
+     <p><legend> Gender </legend> 
+        
+        <input type="radio" name="male" id="male">male
+        <input type="radio" name="female" id="female">female
+    </p>    
+</div>
+<br>
+<p>
+
+    <label> Qualification </label>
+
+    <select name="q" id="q">
+        <option value="B.tech">B.tech</option>
+        <option value="MCA">MCA</option>
+        <option value="M.tech">M.tech</option>
+        <option value="baap ke cash pe aish">BCA</option>
+
+    </select>
+    
+</p>
+<br>
+
+ 
+<button onclick="myFunction()">Submit</button>
+
+
+</body>
+</html>
